@@ -1,0 +1,43 @@
+*{  font-family:Eras ITC;
+}
+
+.jumbotron-text
+{
+	background-color: #333;
+	margin: 10px;
+	padding: 10px;	
+}
+.jumbotron 
+{
+	background-color: #333;
+	margin: 10px;
+	padding: 10px;	
+
+}
+
+
+.row h1
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:90px;	
+	color:#fff;
+}
+.container h3
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	text-align:center;	
+	text-color:#333;
+
+}
+.row p
+{
+	font-size:20px;	
+}
+
+
+
+
+

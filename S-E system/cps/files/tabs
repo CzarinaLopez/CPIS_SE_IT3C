@@ -1,0 +1,26 @@
+<h1>Registration</h1>
+<div class="registration-tabs">
+  <ul class="nav nav-tabs" id-"myTab">
+      <li><a data-toggle="tab" href="#basicinfo">Basic Information</a></li>
+      <li><a data-toggle="tab" href="#address">Address</a></li>
+      <li><a data-toggle="tab" href="#userpass">Username and Password</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="basicinfo" class="tab-pane fade in active">
+      <h2>Basic Information</h2>
+            
+    </div>
+  
+  
+  
+    <div id="address" class="tab-pane fade">
+      <h2>Address</h2>
+    </div>
+  
+  
+  
+    <div id="userpass" class="tab-pane fade">
+      <h2>Username and Password</h2>
+    </div>
+  </div>
+</div>

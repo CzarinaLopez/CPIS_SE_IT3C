@@ -1,0 +1,44 @@
+*{  font-family:Calibri;
+}
+
+body {
+  padding: 1px;
+}
+
+
+.navbar a{
+	color:#fff !important;
+}
+.panel-list a{
+	display:block;
+	color:#666;
+}
+
+.panel-list .panel-heading h3{
+	padding:4px;
+	font-size:18px;
+}
+
+.panel-heading-dark{
+		background:#333333 !important;
+		color:#fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

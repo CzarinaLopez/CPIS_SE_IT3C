@@ -1,0 +1,95 @@
+.jumbotron-text
+{
+	font-family:Calibri;
+	background-color: #fff;
+	margin: 10px;
+	padding: 10px;	
+}
+.row h1
+{
+	font-family:Calibri;
+	font-size:90px;	
+}
+.row h3
+{
+	font-family:Calibri;
+	font-size:35px;	
+}
+.row h2
+{
+	font-family:Calibri;
+	font-size:35px;	
+}
+.row p
+{
+	font-size:25px;	
+	font-family:Calibri;
+}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #1F408F;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+*{  font-family:Calibri;
+}
+
+body {
+  padding: 1px;
+}
+
+
+.navbar a{
+	color:#fff !important;
+}
+.panel-list a{
+	display:block;
+	color:#666;
+}
+
+.panel-list .panel-heading h3{
+	padding:4px;
+	font-size:18px;
+}
+
+.panel-heading-dark{
+		background:#333333 !important;
+		color:#fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

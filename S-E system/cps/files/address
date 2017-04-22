@@ -1,0 +1,59 @@
+ <div class="container-fluid"><br>
+ <?php
+    if(isset($_POST['submit'])){
+      $find_account = mysql_query("select * from tbl_user where username = '$_POST[username]'")or die(mysql_error());
+      $acc = mysql_num_rows($find_account);
+      if($acc >= 1){
+        echo "<div class='alert alert-danger'>Please Fill Up this Form!</div>";
+      }
+      else{
+        mysql_query("insert into tbl_user(fn,age,gender,cn,hn,st,brgy,city,email,username,password) values('$_POST[fn]','$_POST[age]','$_POST[gender]','$_POST[cn]','$_POST[hn]','$_POST[st]','$_POST[brgy]','$_POST[city]','$_POST[email]','$_POST[username]','$_POST[password]');")or die(mysql_error());
+        echo "<div class='alert alert-success'>Successfully registered.</div>";
+      }
+    }
+
+    ?>
+
+
+
+
+
+<tbody>
+        <tr>
+        <td class="col-sm-9"><br>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="hn">House Number :</label>
+            <div class="col-sm-4">
+            <input class="form-control" id="hn" type="text" name="hn" placeholder="Enter your House Number">
+            </div>
+            
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="st">Street :</label>
+            <div class="col-sm-2">
+            <input class="form-control " id="st" type="text" name="st" placeholder="Enter your Street">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="brgy">Barangay :</label>
+            <div class="col-sm-2">
+            <input class="form-control " id="brgy" type="text" name="brgy" placeholder="Enter your Barangay">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="city">Select City :</label>
+            <div class="col-sm-2">
+            <select class="form-control" id="city" name="city" placeholder="PLease Select">
+              <option value="mblct">Mabalacat City</option>
+              <option value="bcld">Bacolod City</option>
+              <option value="lipa">Lipa City</option>
+              <option value="Baguio">Baguio City</option>
+              <option value="gensan">General Santos City</option>
+              
+                </select>
+              </div>
+            </div>
+          </form>
+        </td>
+      </tr>
+    </tbody>
